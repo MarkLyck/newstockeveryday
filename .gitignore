@@ -1,0 +1,21 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# deployment
+now.json
+
+# build
+coverage
+node_modules
+cypress/videos
+cypress/screenshots
+package-lock.json
+.next
+bundles
+
+# misc
+.DS_Store
+.env
+businessLogic
