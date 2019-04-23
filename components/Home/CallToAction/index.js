@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import PriceContext from 'common/Contexts/PriceContext'
 import { Price, Button } from 'ui-components'
 import BlackSection, { Left, Right } from 'ui-components/BlackSection'
 
@@ -7,24 +8,24 @@ const Text = styled.p`
   font-size: 1.33em;
   margin-top: 24px;
   text-align: center;
-  color: rgba(255,255,255,.9)
+  color: rgba(255, 255, 255, 0.9);
 `
 
 const GuranteeTitle = styled.h3`
-      font-size: 2em;
-      font-weight: 300;
+  font-size: 2em;
+  font-weight: 300;
 `
 
 const GuranteeImage = styled.img`
-    max-width: 150px;
+  max-width: 150px;
 `
 
-const CallToAction = ({signupText, guranteeText}) => (
+const CallToAction = ({ signupText, guranteeText }) => (
   <BlackSection>
     <Left>
-        <Price color="white">$102</Price>
-        <Button>SIGN UP NOW</Button>
-        <Text>{signupText}</Text>
+      <PriceContext.Consumer>{({ price }) => <Price color="white">${price}</Price>}</PriceContext.Consumer>
+      <Button>SIGN UP NOW</Button>
+      <Text>{signupText}</Text>
     </Left>
     <Right>
       <GuranteeImage src="static/images/moneyBackGurantee.png" alt="7 day money back gurantee" />

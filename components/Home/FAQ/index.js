@@ -4,10 +4,12 @@ import Section, { Title, Subtitle } from 'ui-components/Section'
 
 const questions = [
   {
+    question: 'WTF is this?',
+    answer: `It's weekly stock investment tips. Real investments, shit that actually works. None of that guru bullshit`,
+  },
+  {
     question: 'Why is it a weekly cost?',
-    answer: `A few reasons. Firstly, Investment systems don't last forever. Some work days, some work years, a lot of it comes down to saturation. But I want to make sure you're always armed.
-\n\n
-Secondly, it just makes sense, as I'm giving a stock pick every week.`,
+    answer: `It just makes sense as I share the one stock I invest in every week. Also I don't really need your money, I have other busineses and investments that make fucking bankkkk. I just like teaching and sharing my tips because it's sick for my EGO and works with this killer pricing model I have going on.`,
   },
   {
     question: 'What if I pirate this/share my login?',
@@ -32,25 +34,25 @@ email: info@newstockeveryweek.com`,
     answer: `You can always find the latest stock pick in our dashboard area. By logging in.
         
 \n\n
-We will also send you an email when a new stock pick is available so you don't miss out`,
+I'll also send you an email when a new stock pick is available so you don't miss out`,
   },
   {
     question: " This isn't very professional seeming",
     answer: `And?
 \n\n
-It's intentional. I'm an investor, not a lawyer.`,
+It's intentional. I'm a f*cking investor with a massive ego, not a P.C lawyer.`,
   },
   {
     question: 'Will this get me rich fast?',
     answer: `Absolutely NOT. Anyone that claims to make you rich fast is most likely a scam.
 \n\n
-We do value investing, by finding solid stocks with large market caps that are selling for lower prices than it should be.`,
+I do value investing, by finding solid stocks with large market caps that are selling for lower prices than it should be.`,
   },
   {
     question: ' Are all of the stock picks legal? Do you break any laws?',
     answer: `Let me make one thing clear: I never break the law, and never advocate doing so.
 \n\n
-Some of my stock picks likely break the Terms of Service of a platforms (investing tools) I use. But as a subscriber it won't ever affect you.
+Some of my stock picks likely break the Terms of Service of a few platforms (investing tools) I use. But as a subscriber it won't ever affect you.
 \n\n
 Most websites breaks Google's TOS, it's so damn hard NOT to break the rules these days (ever read that iTunes agreement? Me neither.) So of course, to make an omelette, you need to break some eggs. Do you want the edge for success or not?`,
   },
@@ -66,7 +68,7 @@ Most websites breaks Google's TOS, it's so damn hard NOT to break the rules thes
     question: 'What happens if I leave?',
     answer: `The price for the next member will go down by a dollar (yay for them), and if you re-join you'll be at the end of the queue.
 \n\n
-Oh, and you'll have 36 years of bad luck in the form of dreadfully bad investment choices...`,
+Oh, and you'll have 36 years of bad luck in the form of dreadfully terrible investment choices...`,
   },
   {
     question: 'I have more questions.',

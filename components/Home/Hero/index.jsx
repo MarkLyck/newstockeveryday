@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import PriceContext from 'common/Contexts/PriceContext'
 import { Subtitle, Text, Price, Button, Disclaimer } from 'ui-components'
 
 const Hero = styled.div`
@@ -34,7 +35,7 @@ const HeroSection = () => (
     <p>
       <Underline>Price goes up by $1/wk with every signup</Underline> - Lock in todays price forever
     </p>
-    <HeroPrice>$102</HeroPrice>
+    <PriceContext.Consumer>{({ price }) => <HeroPrice>${price}</HeroPrice>}</PriceContext.Consumer>
     <Button>SIGN UP NOW</Button>
     <Disclaimer>No lock-in contract, cancel any time</Disclaimer>
   </Hero>
